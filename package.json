@@ -1,0 +1,33 @@
+{
+  "name": "egg-tchannel",
+  "version": "0.0.1",
+  "eggPlugin": {
+    "name": "tchannel"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "hm496",
+    "email": "hm496@163.com"
+  },
+  "description": "tchannel plugin for egg",
+  "keywords": [
+    "egg",
+    "egg-plugin",
+    "eggPlugin",
+    "tchannel"
+  ],
+  "homepage": "https://github.com/hm496/egg-tchannel#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hm496/egg-tchannel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hm496/egg-tchannel/issues"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "peerDependencies": {
+    "tchannel": "*"
+  }
+}
