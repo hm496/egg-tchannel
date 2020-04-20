@@ -11,7 +11,7 @@ $ npm i egg-tchannel
 
 `egg-tchannel` with default configurations below:
 
-- cacheThriftTime: `300000` thriftIDL cache time   
+- cacheThriftTime: `0` thriftIDL cache millisecond, 0 => permanent   
 - thriftIDLPath: `path.join(appInfo.baseDir, "thrift_idl")`    
 - timeout: `2500`  
 

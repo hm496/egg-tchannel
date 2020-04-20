@@ -5,7 +5,7 @@ module.exports = appInfo => {
   const exports = {};
 
   exports.tchannel = {
-    cacheThriftTime: 300000, // 5 minutes
+    cacheThriftTime: 0, // thriftIDL cache millisecond, 0 => permanent
     thriftIDLPath: path.join(appInfo.baseDir, "thrift_idl"),
     timeout: 2500,
   };
