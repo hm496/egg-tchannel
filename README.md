@@ -13,7 +13,10 @@ $ npm i egg-tchannel
 
 - cacheThriftTime: `0` thriftIDL cache millisecond, 0 => permanent   
 - thriftIDLPath: `path.join(appInfo.baseDir, "thrift_idl")`    
-- timeout: `2500`  
+- timeout: `2500`    
+- thriftOptions:    
+    >  strict: `false`   
+    allowOptionalArguments: `true`   
 
 ```js
 // {app_root}/config/config.default.js
