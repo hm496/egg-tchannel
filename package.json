@@ -1,6 +1,6 @@
 {
   "name": "egg-tchannel",
-  "version": "0.0.8-beta.1",
+  "version": "0.0.9",
   "eggPlugin": {
     "name": "tchannel"
   },
