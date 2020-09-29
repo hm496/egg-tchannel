@@ -1,6 +1,6 @@
 {
   "name": "egg-tchannel",
-  "version": "0.0.8",
+  "version": "0.0.8-beta.1",
   "eggPlugin": {
     "name": "tchannel"
   },
@@ -30,8 +30,5 @@
   "dependencies": {
     "lru-cache": "^5.1.1",
     "mz": "^2.7.0"
-  },
-  "peerDependencies": {
-    "tchannel": "*"
   }
 }
